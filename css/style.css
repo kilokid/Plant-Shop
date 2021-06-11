@@ -1,0 +1,327 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+}
+.wrapper {
+    max-width: 1168px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.hat {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.hat li img {
+    margin-left: 40px;
+    cursor: pointer;
+}
+.button-1 {
+    border: none;
+    background-color: #fff;
+    color: #156963;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.button-2 {
+    border: none;
+    background-color: #156963;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.hero-hat img {
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+.hat-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.hat-title h1 {
+    font-size: 68px;
+    font-weight: 500;
+    line-height: 83px;
+    color: #156963;
+    width: 523px;
+    margin: 110px 0px 0px 0px;
+}
+.hat-title p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #2C1500;
+    width: 493px;
+    margin: 24px 25px 70px 0px;
+}
+.button-hat {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 160px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 320px;
+    height: 160px;
+    cursor: pointer;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #156963;
+    width: 385px;
+    height: 160px;
+    cursor: pointer;
+}
+.title-r {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: #C4C4C4;
+    margin: 0px 0px 12px 0px;
+}
+.title-l {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: #C4C4C4;
+    margin: 0px 0px 12px 0px;
+
+}
+.button-text-1 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #156963;
+    margin: 0;
+}
+.button-text-2 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+}
+.preim-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    margin-top: 142px;
+    margin-bottom: 80px;
+}
+.preim-card {
+    border: 1px solid #E0E0E0;
+}
+.preim-header img {
+    margin-right: 15px;
+    margin-left: 16px;
+    margin-top: 20px;
+}
+.preim-header {
+    display: flex;
+    align-items: center;
+}
+.title-preim {
+    font-size: 16px;
+    font-weight: 700;
+    color: #156963;
+    margin: 20px 0px 0px 0px;
+}
+.text-preim {
+    font-size: 10px;
+    font-weight: 400;
+    color: #2C1500;
+    margin: 15px 0px 21px 16px;
+}
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+.search select {
+    font-size: 12px;
+    padding-right: 5px;
+    border: 1px solid #E0E0E0;
+    width: 130px;
+    height: 31px;
+    padding-left: 12px;
+}
+.hr-search {
+    border: 1px solid #E0E0E0;
+    margin-bottom: 24px;
+}
+.kaktus-cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 80px;
+}
+.kaktus-card {
+    text-align: center;
+}
+.kaktus-title {
+    font-size: 16px;
+    font-weight: 400;
+}
+.kaktus-price {
+    font-size: 16px;
+    font-weight: 600;
+}
+.info-text {
+    display: flex;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    margin: 10px 100px 16px 10px;
+}
+.info-text2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 507px;
+    color: #2C1500;
+    margin: 0px 125px 74px 10px;
+}
+.info {
+    margin-bottom: 88px;
+}
+.predlog {
+    display: flex;
+    background-color: #F3F4F6;
+    margin-bottom: 80px;
+}
+.content-left-preg{
+    margin-top: 88px;
+    margin-left: 97px;
+    margin-bottom: 88px;
+}
+.content-left-preg p {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.button-3 {
+    border: none;
+    background-color: #156963;
+    color: #FAFEFE;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+.button-3:hover {
+    background-color: #F3F4F6;
+    color: #156963;
+    border: 1px solid #156963;
+}
+.hr-footer {
+    border: 1px solid #156963;
+    opacity: 0.3;
+    margin-bottom: 60px;
+}
+footer {
+    max-width: 946px;
+    height: 137px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 80px;
+}
+.logo-footer {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #156963;
+}
+.sub-logo {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+}
+.footer-card-text {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #4F4F4F;
+    width: 300px;
+    font-family: 'Work Sans', sans-serif;
+}
+.footer-text2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #000000;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+    width: 100px;
+}
+.title-card-4 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    width: 250px;
+    font-family: 'Work Sans', sans-serif;
+}
+.search-footer {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #000;
+    opacity: 0.5;
+    border: 1px solid #F2F2F2;
+    border-radius: 2px;
+    padding: 8px 87px 8px 13px;
+    font-family: 'Work Sans', sans-serif;
+}
+.button-4 {
+    border: none;
+    background-color: #156963;
+    color: #FAFEFE;
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 14px;
+    font-family: 'Raleway', sans-serif;
+    padding: 4px 12px;
+    cursor: pointer;
+}
